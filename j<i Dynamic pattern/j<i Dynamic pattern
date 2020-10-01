@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,j,k;
+    cout<<"Enter a Number of Rows : \n";
+    cin>>k;
+    cout<<endl;
+    for(i=1;i<=k;i++)
+    {
+        for(j=1;j<=k;j++)
+        {   if(j<=i)
+            cout<<" *";
+            else
+                cout<<" ";
+    }cout<<endl;
+}
+}
